@@ -64,5 +64,74 @@ for (let index = 0; index < arr.length; index++) {
 
 
 
+// 2 задание оп массивам
+//Task1
+// let arr = ['1','2','3','4','5','6','7','8','9']
+// for (let i = 0; i < arr.length; i++) {
+//     console.log(arr[i]);
+// }
 
+
+//Task2 
+// let arr = ['1','2','3','4','5','6','7','8','9']
+// arr.push('10')
+// console.log(arr)
+
+//Task3 - ???
+// let arr = ['1','2','3','4','5','6','7','8','9']
+// for (let i = 9 ; i > -1;  i--) {
+//     console.log(arr[i]);
+// }
+
+//Task 4 
+// let arr = [
+//     ["1","2","3"],
+//     ["4","5","6"],
+//     ["7","8","9"]
+// ]
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         console.log(arr[i][j]);
+//     }  
+// }
+
+// Task 7
+// let arr = [
+//     ["1","2","3"],
+//     ["4","5","6"],
+//     ["7","8","9"]
+// ]
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         console.log(arr[i][j]*2);
+//     }  
+// }
+
+//Task 6
+// let arr = [
+//     ["1","2","3"],
+//     ["4","5","6"],
+//     ["7","8","9"]
+// ]
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = 0; j < arr[i].length; j++) {
+//         if (arr[i][j] % 2 == 0) {
+//             console.log(arr[i][j]);
+//         }
+//     }  
+// }
+
+//Task 7
+// let arr = ['1','2','3','4','5','6','7','8','9']
+// for (let index = 0; index < arr.length; index++) {
+//     console.log(arr.splice(0,9)[index]);
+// }
+
+//Task 8 
+let arr = Number(['1','2','3','4','5','6','7','8','9'])
+let sum = 0
+for (let index = 0; index < arr.length; index++) {
+    sum += arr[index]
+    console.log(sum);
+}
 
