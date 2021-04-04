@@ -121,17 +121,17 @@ for (let index = 0; index < arr.length; index++) {
 //     }  
 // }
 
-//Task 7
+// Task 7
 // let arr = ['1','2','3','4','5','6','7','8','9']
 // for (let index = 0; index < arr.length; index++) {
-//     console.log(arr.splice(0,9)[index]);
+//     // console.log(arr.splice(0,8)[index]);
 // }
 
 //Task 8 
-let arr = Number(['1','2','3','4','5','6','7','8','9'])
-let sum = 0
-for (let index = 0; index < arr.length; index++) {
-    sum += arr[index]
-    console.log(sum);
-}
+// let arr = Number(['1','2','3','4','5','6','7','8','9'])
+// let sum = 0
+// for (let index = 0; index < arr.length; index++) {
+//     sum = arr[0] + arr[1] + arr[2] + arr[3]+ arr[4] + arr[5]+ arr[6] + arr[7]+ arr[8]
+//     console.log(sum);
+// }
 
